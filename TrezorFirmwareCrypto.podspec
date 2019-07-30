@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
     sed -i '' -e 's:ed25519-donna/::g' ./**/*.h
     sed -i '' -e 's:USE_ETHEREUM 0:USE_ETHEREUM 1:g' crypto/options.h
   CMD
-  s.module_map = 'TrezorCrypto.modulemap'
+  s.module_map = 'TrezorFirmwareCrypto.modulemap'
   search_paths = [
     '"${PODS_ROOT}/crypto"',
     '"${PODS_ROOT}/crypto/aes"',
