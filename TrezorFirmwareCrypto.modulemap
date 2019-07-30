@@ -1,0 +1,6 @@
+framework module TrezorFirmwareCrypto {
+  umbrella header "TrezorFirmwareCrypto.h"
+
+  export *
+  module * { export * }
+}

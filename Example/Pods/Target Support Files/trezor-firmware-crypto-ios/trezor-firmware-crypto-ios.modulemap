@@ -1,0 +1,6 @@
+framework module trezor_firmware_crypto_ios {
+  umbrella header "trezor-firmware-crypto-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}

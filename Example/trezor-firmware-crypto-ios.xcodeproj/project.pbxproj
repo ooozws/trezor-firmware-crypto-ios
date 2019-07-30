@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		168F150EBF908D5B40739643 /* trezor-firmware-crypto-ios.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "trezor-firmware-crypto-ios.podspec"; path = "../trezor-firmware-crypto-ios.podspec"; sourceTree = "<group>"; };
+		168F150EBF908D5B40739643 /* trezor-firmware-crypto-ios.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "trezor-firmware-crypto-ios.podspec"; path = "../trezor-firmware-crypto-ios.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		355F65FD1857D5E2D7E8A869 /* Pods-trezor-firmware-crypto-ios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trezor-firmware-crypto-ios_Tests.release.xcconfig"; path = "Target Support Files/Pods-trezor-firmware-crypto-ios_Tests/Pods-trezor-firmware-crypto-ios_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		456775F3FD18EBC4BE63FB44 /* Pods-trezor-firmware-crypto-ios_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trezor-firmware-crypto-ios_Tests.debug.xcconfig"; path = "Target Support Files/Pods-trezor-firmware-crypto-ios_Tests/Pods-trezor-firmware-crypto-ios_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		52619FF0C3F1325B489D317D /* Pods_trezor_firmware_crypto_ios_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_trezor_firmware_crypto_ios_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,8 +29,8 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		C6ED922CC84CAF3B536DF634 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C8525D9644D1832D9BF985E7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C6ED922CC84CAF3B536DF634 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C8525D9644D1832D9BF985E7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,6 @@
 				456775F3FD18EBC4BE63FB44 /* Pods-trezor-firmware-crypto-ios_Tests.debug.xcconfig */,
 				355F65FD1857D5E2D7E8A869 /* Pods-trezor-firmware-crypto-ios_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -160,6 +159,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

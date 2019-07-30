@@ -1,0 +1,16 @@
+PODS:
+  - trezor-firmware-crypto-ios (0.1.0)
+
+DEPENDENCIES:
+  - trezor-firmware-crypto-ios (from `../`)
+
+EXTERNAL SOURCES:
+  trezor-firmware-crypto-ios:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  trezor-firmware-crypto-ios: f4f23f8dd8629c28492b0985c3059abedd018981
+
+PODFILE CHECKSUM: b5155539eda88b9ef0f8f273c7d9913ca7050089
+
+COCOAPODS: 1.7.1
