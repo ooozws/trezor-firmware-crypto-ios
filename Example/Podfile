@@ -1,0 +1,6 @@
+use_frameworks!
+target 'trezor-firmware-crypto-ios_Tests' do
+  pod 'trezor-firmware-crypto-ios', :path => '../'
+  
+  
+end
