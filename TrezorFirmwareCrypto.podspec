@@ -30,6 +30,12 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
+  s.prepare_command = <<-CMD
+    sed -i '' -e 's:ed25519-donna/::g' ./**/*.c
+    sed -i '' -e 's:ed25519-donna/::g' ./**/*.h
+    sed -i '' -e 's:USE_ETHEREUM 0:USE_ETHEREUM 1:g' crypto/options.h
+  CMD
+
   s.module_map = 'TrezorFirmwareCrypto.modulemap'
   search_paths = [
     '"${PODS_ROOT}/crypto"',
@@ -68,7 +74,6 @@ TODO: Add long description of the pod here.
   s.exclude_files =
     'crypto/aes/aestst*.{c,h}',
     'crypto/gui/*.{c,h}',
-    'crypto/rfc6979.c',
     'crypto/test*.{c,h}',
     'crypto/tools/*.{c,h}'
   s.preserve_path = 'crypto/*.{table}'
