@@ -69,8 +69,7 @@ TODO: Add long description of the pod here.
     'crypto/blake2_common.h',
     'crypto/check_mem.h',
     'crypto/macros.h',
-    'crypto/nem_serialize.h',
-    'crypto/rfc6979.h'
+    'crypto/nem_serialize.h'
   s.exclude_files =
     'crypto/aes/aestst*.{c,h}',
     'crypto/gui/*.{c,h}',
