@@ -30,12 +30,6 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.prepare_command = <<-CMD
-    git submodule update --init
-    sed -i '' -e 's:ed25519-donna/::g' ./**/*.c
-    sed -i '' -e 's:ed25519-donna/::g' ./**/*.h
-    sed -i '' -e 's:USE_ETHEREUM 0:USE_ETHEREUM 1:g' crypto/options.h
-  CMD
   s.module_map = 'TrezorFirmwareCrypto.modulemap'
   search_paths = [
     '"${PODS_ROOT}/crypto"',
